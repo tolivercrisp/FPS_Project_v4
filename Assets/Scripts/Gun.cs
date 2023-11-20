@@ -25,8 +25,8 @@ public class Gun : MonoBehaviour
     {
         if(Input.GetButtonDown("Fire1"))
         {
-            Shoot();
             _audioSource.Play();
+            Shoot();
             StartCoroutine(MuzzleFlashRoutine());
             Debug.DrawRay(fpsCam.transform.position, fpsCam.transform.forward, Color.red, 100f);
         }
