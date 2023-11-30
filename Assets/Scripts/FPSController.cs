@@ -6,8 +6,8 @@ using UnityEngine;
 public class FPSController : MonoBehaviour
 {
     public Camera playerCamera;
-    public float walkSpeed = 6f;
-    public float runSpeed = 12f;
+    public float walkSpeed = 2f;
+    public float runSpeed = 2f;
     public float jumpPower = 7f;
     public float gravity = 10f;
 
@@ -75,7 +75,7 @@ public class FPSController : MonoBehaviour
             runSpeed = runSpeed -= 4f * Time.deltaTime;
         } else
         {
-            runSpeed = 12f;
+            runSpeed = 6f;
         }
 
         #endregion
