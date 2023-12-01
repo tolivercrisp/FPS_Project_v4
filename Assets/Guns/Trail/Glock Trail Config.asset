@@ -12,19 +12,73 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9bd5c382f155e4d43a61cd89211071dd, type: 3}
   m_Name: Glock Trail Config
   m_EditorClassIdentifier: 
-  Material: {fileID: 0}
+  Material: {fileID: 2100000, guid: f12840f1acce5aa4b909c5627ad060ba, type: 2}
   WidthCurve:
     serializedVersion: 2
-    m_Curve: []
+    m_Curve:
+    - serializedVersion: 3
+      time: 0.0008773804
+      value: 0.05
+      inSlope: -0.019449916
+      outSlope: -0.019449916
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.23197433
+      value: 0.045505185
+      inSlope: -0.0022767126
+      outSlope: -0.0022767126
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.30659872
+      value: 0.046616826
+      inSlope: -0.009736659
+      outSlope: -0.009736659
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.63793474
+      value: 0.03522887
+      inSlope: -0.058100127
+      outSlope: -0.058100127
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.85663754
+      value: 0.017332325
+      inSlope: -0.101726994
+      outSlope: -0.101726994
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.9991455
+      value: 0
+      inSlope: -0.121623546
+      outSlope: -0.121623546
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
-  Duration: 0.5
+  Duration: 0.2
   MinVertexDistance: 0.1
   Color:
     serializedVersion: 2
     key0: {r: 1, g: 1, b: 1, a: 1}
-    key1: {r: 1, g: 1, b: 1, a: 1}
+    key1: {r: 1, g: 1, b: 1, a: 0}
     key2: {r: 0, g: 0, b: 0, a: 0}
     key3: {r: 0, g: 0, b: 0, a: 0}
     key4: {r: 0, g: 0, b: 0, a: 0}
@@ -51,5 +105,5 @@ MonoBehaviour:
     m_ColorSpace: -1
     m_NumColorKeys: 2
     m_NumAlphaKeys: 2
-  MissDistance: 100
-  SimulationSpeed: 100
+  MissDistance: 50
+  SimulationSpeed: 800

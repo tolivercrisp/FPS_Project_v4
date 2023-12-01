@@ -12,10 +12,64 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9bd5c382f155e4d43a61cd89211071dd, type: 3}
   m_Name: M4A1 Trail Config
   m_EditorClassIdentifier: 
-  Material: {fileID: 0}
+  Material: {fileID: 2100000, guid: f12840f1acce5aa4b909c5627ad060ba, type: 2}
   WidthCurve:
     serializedVersion: 2
-    m_Curve: []
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0.1
+      inSlope: -0.027666524
+      outSlope: -0.027666524
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.24170679
+      value: 0.093312815
+      inSlope: -0.04988653
+      outSlope: -0.04988653
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.45786038
+      value: 0.07772673
+      inSlope: -0.08784413
+      outSlope: -0.08784413
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.7004213
+      value: 0.05260185
+      inSlope: -0.13730301
+      outSlope: -0.13730301
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.8573638
+      value: 0.025760867
+      inSlope: -0.19925731
+      outSlope: -0.19925731
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1.001709
+      value: -0.0070762634
+      inSlope: -0.22749034
+      outSlope: -0.22749034
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
@@ -24,7 +78,7 @@ MonoBehaviour:
   Color:
     serializedVersion: 2
     key0: {r: 1, g: 1, b: 1, a: 1}
-    key1: {r: 1, g: 1, b: 1, a: 1}
+    key1: {r: 1, g: 1, b: 1, a: 0}
     key2: {r: 0, g: 0, b: 0, a: 0}
     key3: {r: 0, g: 0, b: 0, a: 0}
     key4: {r: 0, g: 0, b: 0, a: 0}
@@ -52,4 +106,4 @@ MonoBehaviour:
     m_NumColorKeys: 2
     m_NumAlphaKeys: 2
   MissDistance: 100
-  SimulationSpeed: 100
+  SimulationSpeed: 800

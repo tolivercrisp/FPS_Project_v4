@@ -33,6 +33,11 @@ public class GunScriptableObject : ScriptableObject
     private ParticleSystem ShootSystem;
     private ObjectPool<TrailRenderer> TrailPool;
 
+
+    public void Update()
+    {
+        ShootSystem = Model.GetComponentInChildren<ParticleSystem>();
+    }
     public void Spawn(Transform Parent, MonoBehaviour ActiveMonoBehavior)
     {
         this.ActiveMonoBehavior = ActiveMonoBehavior;
@@ -51,10 +56,10 @@ public class GunScriptableObject : ScriptableObject
     public void Shoot()
     {
         if (Time.time > ShootConfig.FireRate + LastShootTime)
-        {
+        { 
             LastShootTime = Time.time;
             ShootSystem.Play();
-            Vector3 shootDirection = ShootSystem.transform.forward
+            Vector3 shootDirection = Camera.main.transform.forward
                 + new Vector3(
                     Random.Range(
                         -ShootConfig.Spread.x,

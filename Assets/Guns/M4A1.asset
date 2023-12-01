@@ -12,10 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5b9bddb57d0dfa64e9ab6f860f1e706f, type: 3}
   m_Name: M4A1
   m_EditorClassIdentifier: 
-  Type: 0
-  Name: 
-  ModelPrefab: {fileID: 0}
-  SpawnPoint: {x: 0, y: 0, z: 0}
-  SpawnRotation: {x: 0, y: 0, z: 0}
-  ShootConfig: {fileID: 0}
-  TrailConfig: {fileID: 0}
+  Type: 1
+  Name: M4A1
+  ModelPrefab: {fileID: 8326545447036571941, guid: b05a40099e0f6e54b802ce6bb32007dd, type: 3}
+  SpawnPoint: {x: 0.146, y: -0.167, z: 0.323}
+  SpawnRotation: {x: -3.96, y: 0.183, z: 1.49}
+  ShootConfig: {fileID: 11400000, guid: a7336bee0b683e44290411b16d876244, type: 2}
+  TrailConfig: {fileID: 11400000, guid: 43ab83eaaf7453044bfd6e8be368f26e, type: 2}
