@@ -2,6 +2,6 @@ using UnityEngine;
 
 public enum GunType
 {
-    Glock,
+    Revolver,
     M4A1
 }

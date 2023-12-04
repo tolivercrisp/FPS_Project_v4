@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 
 [DisallowMultipleComponent]
@@ -9,9 +10,12 @@ public class PlayerAction : MonoBehaviour
 
     private void Update()
     {
-        if (Input.GetMouseButton(0) && GunSelector.ActiveGun != null)
+        if (Mouse.current.leftButton.isPressed && GunSelector.ActiveGun != null)
         {
             GunSelector.ActiveGun.Shoot();
+
         }
+
     }
+
 }
